@@ -20,7 +20,7 @@
 
 # alguno de mi proyectos 
 
-[proyecto aire acondicionoado ]().
+[proyecto aire acondicionoado ](https://github.com/juandy100/electro/blob/main/electro.html).
 [proyecto juego]().
 
 
@@ -37,5 +37,14 @@ adios
     <img alt="Dashboard stats of @juandy100" src="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=330916110&image_size=auto&color_scheme=light" width="771" height="auto">
   </picture>
 </a>
+
+
+```sql
+
+insert 
+
+
+```
+
 
 <!-- Made with [OSS Insight](https://ossinsight.io/) -->
