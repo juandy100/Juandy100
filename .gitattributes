@@ -1,0 +1,145 @@
+# juandy100
+
+# presentacion de mi pefil
+
+*algo #kjhg l* 
+
+*solo lo dejo por tener algo en cursiva*  
+_y este como otro ej_
+
+**negrita f1**  
+
+    f1?  que... formula uno, forma, fusfuratio de calcio con una molecula de hidrogeno. F1 que NO DICE NADA
+
+__negrita f 2__
+
+    
+
+_se puede poner uno adentro del otro **con etique dentro de etiqueta** y solo se ve el primero si no hay un # quelo seoare_
+
+negrita ** o  __  de cada lado.,  fueron dos bara baja por si acaso 2 umo de cada lado con la barra bajo es culsiva
+
+## Lista
+
+### h3
+# secabaron las ideas para los titulo en esta lista
+
+* cosa 1 antes del texto y numero 1 *
+* cosa 2 agua
+* cosa no voy a poner mas numro al lado del *
+* cosa nose no se me  ocurre nada
+    * tab despues * y despues texto o numero
+    * sub cosa o algo si
+
+## iii apartir de hora se escribira el original que ya tenia en ingles no hay presupuesto suficiente tampoco para la ortografia aunque para eso nunca hubo (ni para lo primero signo de exclamacion haci que se acombiaron por i ) !!!
+### Ordered
+
+1. lo mismo que lo otro primero un numero y despues punto sin espacio 
+2. arroz , agua , sal
+3. caldero
+    1. lo mismo del  sub de arriba
+    2. de un material que no se derrita con el fuego para que no se te derrita el cardero y que no se te bote todo
+
+## Images
+
+![This is an alt text.](/image/Markdown-mark.svg "This is a sample image.")
+
+>la imagen brilla por su ausencia (esta mal puesto el link de la imagen)
+
+## Links
+
+You may be using [Markdown Live Preview](https://markdownlivepreview.com/).  
+
+no se lo que sea [] para poner como se vera el link () adentro de eso se pone el link nose algo asi sera segun lo que vi
+
+## Blockquotes
+
+> no se lo cosa que esta viendo primero  >
+
+> no se lo que sea [] para poner como se vera el link () adentro de eso se pone el link nose algo asi sera segun lo que vi
+>> lo mismo que primera cosa pero con mas > lo que escriba de aqui al final del texto solo es relleno para hacerlo mas largo y que se vea mejor   
+
+>>> si pones la misma contidad se funciona con el otro atraz o alante segun donde lo ponga   el enter o linea basia o espasio 
+locorta 
+
+(seve como un comentario en github)
+
+## Tables
+
+| Left columns  | Right columns |
+| ------------- |:-------------:|
+| left foo      | right foo     |
+| left bar      | right bar     |
+| left baz      | right baz     |
+| ????          | ?????         |
+| solo se que no se nada    | menos que : cunta como un display   |
+|deffef | el palo largo pa riva que esta el largo que esta al lado del uno para crear tabla son como los bordes :-----------: al go haci
+
+## Blocks of code
+
+```
+para que sevea con ese sobreado o lo que sea eso 3 `` de eso que puse al inicio y alfinal mejor si se pone en un linea solo ante del texto y lo mismo con el final 
+``` 
+sflesfse 
+ssf
+sfsfss
+fs
+```
+
+si lo hace dentro se anula y se ve haci
+```
+
+## diagrama 
+``` 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+no funcionan diferentes folmato a qui dentro mejor explicado en el diagrama de arriva
+
+> si el, diagrama es invisible 
+
+
+
+``` 
+
+## un diagrama ramdon 
+
+``` mermaid
+graph TD
+  A[Start] --> B{Decision} --> c[Decision]
+  B -->|Yes| C[Finish] --> d[Decision] --> 
+  B -->|No| D[ruta alternativa] --> c{Decision seria} --> d[todos los camino llevan a roma] --> z[roma]
+
+```
+
+## no entesdiste nada yo tampoco
+## Inline code
+
+This web site is using `markedjs/marked`.
+
+
+aunque este no conserba ni la mitad del original_______________
+ al cesar lo que es del cesar, completa la linea en blanco como o conque nos
+
+
+
+
+
+
+ 
+
+
+bbb¿
+
+ o
