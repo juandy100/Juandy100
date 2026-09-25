@@ -128,4 +128,4 @@ from tblCliente order by cliente_ID;
 
 ```
 
-> (seletciona un valor de la tabla)
+> (seletciona un valor de la tabla) 
