@@ -1,0 +1,63 @@
+body {
+    padding: 50px !important;
+    max-width: 1000px !important;
+    margin: 0 auto !important;
+    text-align: center; /* Esto centra todos los títulos y textos */
+}
+
+
+table {
+    width: 85% !important;       
+    max-width: 900px !important;  
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: table !important;     
+}
+
+
+pre {
+    width: 85% !important;        
+    max-width: 900px !important;  
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;            
+}
+
+
+th, td {
+    width: 33.33% !important;
+    text-align: center !important; 
+    padding: 8px !important;      
+}
+
+
+pre, td, td{ 
+    text-align: center;
+}
+
+
+
+/* Centra el contenedor principal que genera Mermaid en el HTML */
+.mermaid {
+    display: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 80% !important;
+    margin: 1.5rem auto !important; /* Añade margen arriba/abajo y centra horizontalmente */
+    align-items: right 100px;
+}
+
+/* Asegura que el gráfico SVG interno no se estire ni se recorte */
+.mermaid svg {
+    margin: center !important;
+    display: block !important;
+    max-width: 80% !important;
+    height: auto !important;
+    align-items: right 100px;
+    display: flex; justify-content: flex-end; width: 100%;
+}
+
+
+
+ 
+

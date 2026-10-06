@@ -1,72 +1,42 @@
-insert into [tblCliente] ([cliente_code],[cliente_name],[direcin],[ciudad])
-values ('o','pedro''santiago''NY'),
-       ('0002','9''villamella''PU'),
-       ('0003','jr''punta''8')
 
 
-delete from [dbo].[tblCliente]
-where cliente_ID = 13
+SELECT objeto FROM [dbo].[tblalmacen2]
+UNION 
+SELECT objeto FROM [dbo].[tblalmacen3];
 
-update [dbo].[tblCliente] 
-set [cliente_code] = 0000,
-    [cliente_name] = 'jon'
-where cliente_ID =16
-
-  update [dbo].[tblCliente] 
-set [Fecha de la cita] = 2026-10-26
-where cliente_ID IN (20,21,22)
+()
 
 
-           insert into [tbljuego2] ([nombre_del_cliente],[rol_de_juego],[juego],[precio],[fecha_de_compra])
-values ('PAULO','AAVENTURA','MINECRFT','24','2026-10-25'),
-       ('ROCKY','SHOTER','VALORANT','60','2026-10-25'),
-       ('ENYER','ACCION','BATLEFIELD','60','2026-10-25')
+SELECT objeto FROM [dbo].[tblalmacen2]
+UNION all
+SELECT objeto FROM [dbo].[tblalmacen3];
+
+()
 
 
-  delete from [dbo].[Cliente]
-where cliente_ID IN (1,2,3,4,5,6)
+SELECT nombre_del_cliente, 
+     juego,
+    rol_de_juego,
+    precio,
+    ROW_NUMBER() OVER (ORDER BY precio) AS fila_num
+FROM [dbo].[tbljuego2];
 
-SELECT
-	cs.CustomerID
-	,cs.Name
-	,cs.CountryID
-	,cn.CountryName
-FROM Customers cs
-INNER JOIN Countries cn
-	ON cs.CountryID = cn.CountryID;
+()
 
 
-  ALTER table cliente add rol_de_juego varchar
+SELECT nombre_del_cliente, 
+     juego,
+    precio,
+    rol_de_juego,
+    ROW_NUMBER() OVER (PARTITION BY rol_de_juego ORDER BY precio) AS fila_num
+FROM [dbo].[tbljuego2];
 
 
-    CREATE TABLE [tblPatient](
-    [Patient_ID] [bigint] IDENTITY(1,1),
-    [Patient_code] [varchar](50) NOT NULL,
-    [Patient_name] [varchar](50),
-    [Address] [varchar](25),
-    [City] [varchar](50),
-    [AppointmentDate] [datetime],
-  ) ON [PRIMARY]
+()
 
 
- 
-
-
-  SELECT 
-    c.[cliente_ID],
-    c.[cliente_code],
-    c.[cliente_name],
-    c.[direcin],
-    c.[ciudad],
-    c.[Fecha de la cita],
-    j.[nombre_del_cliente] AS juego_cliente,
-    j.[rol_de_juego] AS rol,
-    j.[juego],
-    j.[precio],
-    j.[fecha_de_compra]
-FROM [master].[dbo].[tblCliente] AS c
-INNER JOIN [master].[dbo].[tbljuego2] AS j 
-    ON c.[cliente_ID] = j.[cliente_ID];
-
-
-
+SELECT 
+    GETDATE()            AS [1. GETDATE: Fecha y hora estándar],
+    CURRENT_TIMESTAMP    AS [2. CURRENT_TIMESTAMP: Equivalente ANSI],
+    SYSDATETIME()        AS [3. SYSDATETIME: Alta precisión (7 decimales)],
+    GETUTCDATE()         AS [4. GETUTCDATE: Hora en formato UTC/Greenwich];
