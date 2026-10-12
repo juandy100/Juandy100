@@ -4,8 +4,6 @@
 # Tablas
 
 
- 
-
 # CREATE TABLE 
 
 
@@ -41,7 +39,9 @@ graph LR
     E -- No --> F[ON PRIMARY]
     F --> Fin([Fin])
 ```
-      
+numeros[9] $\rightarrow$ 10 (el décimo y último elemento).
+
+
 
 
 # CREATE TABLE con llave fk (FOREIGN)

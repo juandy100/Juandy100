@@ -1,0 +1,188 @@
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int[] numeros = { 1, 2, 3, 4, 5 };
+            Console.WriteLine(numeros[0]);
+            Console.ReadLine();
+
+            List<int> numeroos = new List<int> { 1, 2, 3 };
+            Console.WriteLine(numeroos[0]);
+
+
+            var jugadores = new Dictionary<int, (int puntos, string nombre)>
+            {
+                [1] = (10, "Juan"),
+                [2] = (20, "Pedro"),
+                [3] = (30, "Maria"),
+                [4] = (40, "Luis")
+            };
+
+            var (puntos, nombre) = jugadores[1];
+            Console.WriteLine($"Jugador ID 1: {nombre} - Puntos: {puntos}");
+            Console.ReadLine();
+
+          
+
+    
+            float PI = 3.14f;
+            float radio = 5.0f;
+            float bases = 10.0f;
+            float haltura = 8.0f;
+
+            float area = PI * radio * radio;
+            float volumen = bases * haltura;
+
+        Console.WriteLine(area);
+        Console.WriteLine(volumen);
+
+            Console.ReadLine();
+
+            Console.WriteLine(1 + 1);
+            Console.WriteLine(10 - 1);
+            Console.WriteLine(5 * 2);
+            Console.WriteLine(10 / 2);
+            Console.WriteLine(15 % 30);
+
+            Console.ReadLine();
+
+            Console.WriteLine(true || false);
+            Console.WriteLine(true || true);
+            Console.WriteLine(false || true);
+            Console.WriteLine(false || false);
+
+            Console.ReadLine();
+
+            Console.WriteLine(true && false);
+            Console.WriteLine(true && true);
+            Console.WriteLine(false && true);
+            Console.WriteLine(false && false);
+
+            Console.ReadLine();
+
+            bool autorizado = false;
+
+if (autorizado)
+{
+    Console.WriteLine("no autorizado");
+}
+else
+{
+    Console.WriteLine("Acceso permitido");
+}
+
+            Console.ReadLine();
+
+            int entero8 = 100;
+
+            if (entero8 == 99)
+            {
+                Console.WriteLine("El 99");
+            }
+            else if (entero8 == 100)
+            {
+                Console.WriteLine("El 100");
+            }
+            else
+            {
+                Console.WriteLine("El número no es 99 NI 100");
+            }
+
+
+            Console.ReadLine();
+
+
+            string colores = "azul";
+
+            switch (colores)
+            {
+                case "verde":
+                    Console.WriteLine("correcto");
+                    break;
+                case "amarillo":
+                    Console.WriteLine("masomenos");
+                    break;
+                case "rojo":
+                    Console.WriteLine("masomenos");
+                    break;
+
+
+                default:
+                    Console.WriteLine("incorrecto");
+                    break;
+            }
+
+            Console.ReadLine();
+
+            int sumatoria(int a, int b)
+            {
+                return a + b;
+            }
+
+            sumatoria(10, 20);
+
+
+            int multiplicacion(int a, int b)
+            {
+                return a * b;
+            }
+
+            Console.WriteLine(multiplicacion(3, 200000));
+
+        Console.ReadLine();
+
+        int division(int a, int b)
+            {
+                return a / b;
+            }
+
+            Console.WriteLine(division(10, 2));
+
+        Console.ReadLine();
+
+        int resta(int a, int b)
+            {
+                return a - b;
+            }
+            Console.WriteLine(resta(10, 2));
+
+        Console.ReadLine();
+
+        int modulo(int a, int b)
+            {
+                return a % b;
+            }
+            Console.WriteLine(modulo(10, 3));
+
+
+
+        Console.ReadLine();
+
+        int entero10 = 10;
+            int emergencia = 1;
+
+            while (entero10 >= emergencia)
+            {
+                Console.WriteLine(entero10);
+                entero10--;
+            }
+
+        Console.ReadLine();
+
+
+        {
+                {
+            for (int i = 1; i <= 5; i++)
+            {
+                Console.WriteLine("Número: " + i);
+            }
+        }
+    }
+
+
+
+
+
+}
+}
